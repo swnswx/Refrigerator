@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Refrigerator</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="manual_image">Manual Image</string>
+</resources>

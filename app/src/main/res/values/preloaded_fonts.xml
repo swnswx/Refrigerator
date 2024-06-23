@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts">
+        <item>@font/kcc_hanbit</item> <!-- 폰트 파일의 리소스 ID를 여기에 추가합니다. -->
+    </array>
+</resources>

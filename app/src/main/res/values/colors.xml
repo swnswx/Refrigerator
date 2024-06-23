@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonBackground">#FF6200EE</color> <!-- 원하는 색상 코드로 변경 -->
+    <color name="buttonPressedBackground">#FF4500</color> <!-- 버튼 눌림 색상 -->
+    <color name="checkedTextColor">#FF0000</color> <!-- 체크된 항목의 텍스트 색상 -->
+    <color name="defaultTextColor">#000000</color> <!-- 기본 텍스트 색상 -->
+</resources>

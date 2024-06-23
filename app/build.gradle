@@ -1,0 +1,62 @@
+plugins {
+    //alias(libs.plugins.androidApplication) apply false
+
+    id 'com.android.application'
+    id 'com.google.gms.google-services' // Google Services plugin applied here
+}
+
+android {
+    namespace 'com.example.refrigerator'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.refrigerator"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation libs.recyclerview
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation libs.gson
+    implementation libs.retrofit
+    implementation libs.glide
+    annotationProcessor libs.compiler
+    implementation libs.converter.gson
+    implementation libs.volley
+    //implementation libs.glide.v4120
+    //annotationProcessor libs.compiler.v4120
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.3') // Make sure this matches the version you want
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-storage'
+
+    implementation 'androidx.room:room-runtime:2.6.1'
+    annotationProcessor 'androidx.room:room-compiler:2.6.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

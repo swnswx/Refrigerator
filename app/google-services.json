@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1034520122613",
+    "project_id": "refrigerator-2113a",
+    "storage_bucket": "refrigerator-2113a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034520122613:android:50ac6990fafcda24a021bc",
+        "android_client_info": {
+          "package_name": "com.example.refrigerator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvFWLcIjpB_FeUpFKqbOx69ZWp71T_ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
